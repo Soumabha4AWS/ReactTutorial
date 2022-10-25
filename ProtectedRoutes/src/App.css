@@ -1,0 +1,41 @@
+nav { 
+    left: 10%;
+    width: 75%;
+    height: 25%;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    color: aquamarine;  
+    float: right;  
+}
+
+li {
+    position: relative;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.my-6 {
+    margin: auto;
+    width: 30%;
+    padding: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.my-12 {
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 40%;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+

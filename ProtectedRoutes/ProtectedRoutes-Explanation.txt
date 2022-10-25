@@ -1,0 +1,16 @@
+1. Define the Page Layout in App Js File
+    * Define Title 
+    * Define Buttons --> LogIn and LogOut
+    		+ When LogIn Button is clicked , Set the protectedRouteStatus variable state to True  
+ 		+ When LogOut Button is clicked , Use React-Router History to navigate to Home Page
+2. Call a App Router Js File from App Js File and pass the value of protectedRouteStatus variable as props 
+3. Define below Nav Bar Elements with Links to the Pages in App Router Js File 
+                + Home Page
+		+ Contact Us Page ( UnProtected ) 
+		+ About Us Page ( Protected ) 
+4. Add the Path Component in App Router Js File and replace the Route tag with ProtectedRoute tag for the component on which it is needed 
+   and also pass the protectedRouteStatus variable as props 
+5. Define ProtectedRoute Js component with Route tag with condition 
+		* If protectedRouteStatus tag is True then return Component 
+		* Else Use React Router Redirect to Home Page
+	
